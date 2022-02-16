@@ -19,3 +19,6 @@ To be continued
 data:
 
 To be continued  
+
+**Acknowledgement**
+This repository was built based on Ganchao Tan's RMN(https://github.com/tgc1997/RMN) for video captioning.
