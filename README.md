@@ -10,7 +10,7 @@ torchvision	0.9.1
 python      3.6.9
 
 # Data
-**You need to download the following two projects and place them in the root directory  :**
+**You need to download the following files and :**
 
 caption-eval & features & text files:
 
