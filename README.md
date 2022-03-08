@@ -12,11 +12,11 @@ python      3.6.9
 # Data
 **You need to download the following two projects and place them in the root directory  :**
 
-caption-eval:
+caption-eval & features & text files:
 
-To be continued  
+LINK：https://pan.baidu.com/s/13SQdmq0iDHJA2-bcwcDk2A 
+PASSWORD：icme
 
-data:
 
 To be continued  
 # Train
