@@ -21,6 +21,7 @@ PASSWORD：icme
 # checkpoint:
 
 ***************MSVD**********************
+
 Bleu_1: 84.545195
 
 Bleu_2: 74.130214
@@ -34,6 +35,7 @@ METEOR: 35.952250
 ROUGE_L: 73.029840
 
 CIDEr: 96.142574
+
 *****************************************
 
 LINK：https://pan.baidu.com/s/13kJ32N-C4pkIE-Dlst05zA 
