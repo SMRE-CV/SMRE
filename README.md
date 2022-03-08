@@ -15,21 +15,29 @@ python      3.6.9
 caption-eval & features & text files:
 
 LINK：https://pan.baidu.com/s/13SQdmq0iDHJA2-bcwcDk2A 
+
 PASSWORD：icme
 
 # checkpoint:
 
 ***************MSVD**********************
 Bleu_1: 84.545195
+
 Bleu_2: 74.130214
+
 Bleu_3: 64.860649
+
 Bleu_4: 55.485736
+
 METEOR: 35.952250
+
 ROUGE_L: 73.029840
+
 CIDEr: 96.142574
 *****************************************
 
 LINK：https://pan.baidu.com/s/13kJ32N-C4pkIE-Dlst05zA 
+
 PASSWORD：icme
 
 # Train
