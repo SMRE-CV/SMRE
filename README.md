@@ -10,7 +10,7 @@ torchvision	0.9.1
 python      3.6.9
 
 # Data
-**You need to download the following files and :**
+**You need to download the following files to reproduce the experiments**
 
 caption-eval & features & text files:
 
