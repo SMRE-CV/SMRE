@@ -20,9 +20,6 @@ class Decoder(nn.Module):
         self.vocab_size = len(filed.vocab)
         self.beam_size = opt.beam_size
         self.use_multi_gpu = opt.use_multi_gpu
-        self.use_loc = opt.use_loc
-        self.use_rel = opt.use_rel
-        self.use_func = opt.use_func
         self.batch_size = 32
         self.topk = opt.topk
         self.trans=nn.Linear(26,1)
@@ -236,9 +233,7 @@ class Decoder(nn.Module):
         if isinstance(previous_cells, list):
             previous_cells = torch.stack(previous_cells, dim=1)
 
-        # LOCATE, RELATE, FUNC modules
-        if not self.use_rel and not self.use_loc:
-            raise ValueError('use locate or relation, all use both')
+        
         att_feat, weight = self.att(frame_feats, att_lstm_h)
 
 
