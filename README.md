@@ -56,4 +56,4 @@ python evaluate.py --dataset=msvd --model=RMN \
  --eval_metric=CIDEr --topk=18 --max_words=26
 ```
 # Acknowledgement
-This repository was built based on Ganchao Tan's RMN(https://github.com/tgc1997/RMN) for video captioning.
+This repository is partly built based on Ganchao Tan's RMN(https://github.com/tgc1997/RMN) for video captioning.
