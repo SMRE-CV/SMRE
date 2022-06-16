@@ -49,11 +49,13 @@ class Bert(nn.Module):
 class Encoder(nn.Module):
     def __init__(self, opt):
         super(Encoder, self).__init__()
+        self.language_model = Bert()
+#         for name ,pararmeter in self.language_model.named_parameters():
+#             pararmeter.requires_grad = False
         self.a_feature_size = opt.a_feature_size
         self.m_feature_size = opt.m_feature_size
         self.hidden_size = opt.hidden_size
         self.concat_size = self.a_feature_size + self.m_feature_size
-        self.language_model = Bert()
         # frame feature embedding
         self.frame_feature_embed = nn.Linear(self.concat_size, self.hidden_size)
         self.cal_loss_tri=Tri_Loss()
