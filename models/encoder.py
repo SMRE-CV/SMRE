@@ -50,8 +50,8 @@ class Encoder(nn.Module):
     def __init__(self, opt):
         super(Encoder, self).__init__()
         self.language_model = Bert()
-#         for name ,pararmeter in self.language_model.named_parameters():
-#             pararmeter.requires_grad = False
+        for name ,pararmeter in self.language_model.named_parameters():
+            pararmeter.requires_grad = False
         self.a_feature_size = opt.a_feature_size
         self.m_feature_size = opt.m_feature_size
         self.hidden_size = opt.hidden_size
