@@ -66,8 +66,8 @@ def main(opt):
     # initialize loss function and optimizer
     contrastive=Tri_Loss()
     criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(net.parameters(), lr=opt.learning_rate)
-#     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, net.parameters()), lr=opt.learning_rate)
+#     optimizer = torch.optim.Adam(net.parameters(), lr=opt.learning_rate)
+    optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, net.parameters()), lr=opt.learning_rate)
     if os.path.exists(opt.optimizer_pth_path) and opt.use_checkpoint:
         optimizer.load_state_dict(torch.load(opt.optimizer_pth_path))
 
