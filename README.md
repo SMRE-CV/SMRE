@@ -14,7 +14,7 @@ python      3.6.9
 # Data
 **You need to download the following files to reproduce the experiments**
 
-caption-eval & features & text files:
+caption-eval & features & text files & Bert related files:
 
 LINK：https://pan.baidu.com/s/13SQdmq0iDHJA2-bcwcDk2A 
 
